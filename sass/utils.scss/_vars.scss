@@ -1,0 +1,80 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bg);
+    color: var(--text-black);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+ 
+$text-black: #212121;
+$text-gray: #757575;
+$hover-blue: #2196F3;
+$logo-black: #000000;
+$main-bg: #ffffff;
+$banner-bg: #2F303A;
+$button-bg: #F5F4FA;
+$btn-active: #188CE8;
+$projects-border: #EEEEEE;
+$banner-gradient: rgba(47, 48, 58, 0.4);
+$icon-color: #AFB1B8;
+$footer-iconbg: rgba(255, 255, 255, 0.1);
+$footer-contact: rgba(255, 255, 255, 0.6);
+$wedoit-bg: rgba(47, 48, 58, 0.8);
+$description-bg: rgba(33, 150, 243, 0.9);
+$modal-bg: rgba(0, 0, 0, 0.2);
+$modal-btn: rgba(0, 0, 0, 0.1);
+$modal-border: rgba(33, 33, 33, 0.2);
+
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

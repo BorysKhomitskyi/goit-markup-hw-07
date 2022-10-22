@@ -1,0 +1,52 @@
+.banner {
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 200px 0;
+
+    background-color: $banner-bg;
+    background-image: linear-gradient($banner-gradient, $banner-gradient),
+        url(../images/bannerbgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner__title {
+    max-width: 696px;
+    margin: 0 auto 30px;
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $main-bg;
+}
+
+.banner__btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 32px;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: $main-bg;
+
+    background: $hover-blue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $btn-active;
+    }
+}
